@@ -1,5 +1,5 @@
 classe1 = input()
-classe2 = input() # :D
+classe2 = input() 
 classe3 = input()
 
 if classe1 == "vertebrado":
