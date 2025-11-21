@@ -2,7 +2,7 @@ import random
 segredo = random.randint(1,50)
 
 print("\nJogo da adivinhação, teste sua intuição!\n")
-print("Você têm 5 tentativas! ( ͡° ͜ʖ ͡°)\n ")
+print(" Você têm 5 tentativas! ( ͡° ͜ʖ ͡°)\n ")
 
 chances = 5 
 tent = 1 # Nº de tentativas
@@ -23,7 +23,7 @@ while(not acertou and tent<=chances):
     acertou = True #Interrompe o laço quando o usuário acerta
 
 if(not acertou):
-  print("Você não descobriu o segredo (ಠ_ಠ) \n")
+  print(" Você não descobriu o segredo (ಠ_ಠ) \n")
   print(f" O segredo era: {segredo} (ʘ ͜ʖ ʘ) \n")
 
 print(" Fim do programa! ( ͡~ ͜ʖ ͡°)\n")
