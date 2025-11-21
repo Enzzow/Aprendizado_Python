@@ -5,22 +5,22 @@ classe3 = input()
 if classe1 == "vertebrado":
     if classe2 == "ave":
         if classe3 == "carnivoro":
-            print("aguia")
+            print(" aguia")
         else:
-            print("pomba")
+            print(" pomba")
     else:  # mamifero
         if classe3 == "onivoro":
-            print("homem")
+            print(" homem")
         else:
-            print("vaca")
+            print(" vaca")
 else:  # invertebrado
     if classe2 == "inseto":
         if classe3 == "hematofago":
-            print("pulga")
+            print(" pulga")
         else:
-            print("lagarta")
+            print(" lagarta")
     else:  # anelideo
         if classe3 == "hematofago":
-            print("sanguessuga")
+            print(" sanguessuga")
         else:
-            print("minhoca")
+            print(" minhoca")
