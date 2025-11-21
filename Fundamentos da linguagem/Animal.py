@@ -5,7 +5,7 @@ classe3 = input()
 if classe1 == "vertebrado":
     if classe2 == "ave":
         if classe3 == "carnivoro":
-            print(" aguia")
+            print("aguia")
         else:
             print(" pomba")
     else:  # mamifero
