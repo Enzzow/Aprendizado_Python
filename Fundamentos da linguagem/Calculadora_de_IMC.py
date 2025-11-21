@@ -1,4 +1,4 @@
-print("\n &| Calculadora de Índice de massa corporal(IMC) |&  \n")
+print("\n | Calculadora de Índice de massa corporal(IMC) |  \n")
 nome = input(" Informe o seu nome: ")
 
 idade = int(input(" Informe a sua idade: "))
