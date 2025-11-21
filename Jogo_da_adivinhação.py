@@ -7,7 +7,7 @@ print("Você têm 5 tentativas! ( ͡° ͜ʖ ͡°)\n ")
 chances = 5 
 tent = 1 # Nº de tentativas
 
-acertou = False
+acertou = False #Booleano para verificar se o usuário acertou
 
 while(not acertou and tent<=chances):
   chute = int(input(f"{tent}º tentativa: "))
@@ -20,7 +20,7 @@ while(not acertou and tent<=chances):
     tent+=1
   else:
     print(f"Parabéns, você acertou depois de {tent} tentativas (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ \n")
-    acertou = True
+    acertou = True #Interrompe o laço quando o usuário acerta
 
 if(not acertou):
   print("Você não descobriu o segredo (ಠ_ಠ) \n")
