@@ -5,7 +5,7 @@ print("\nJogo da adivinhação, teste sua intuição!\n")
 print("Você têm 5 tentativas! ( ͡° ͜ʖ ͡°)\n ")
 
 chances = 5 
-tent = 1
+tent = 1 # Nº de tentativas
 
 acertou = False
 
