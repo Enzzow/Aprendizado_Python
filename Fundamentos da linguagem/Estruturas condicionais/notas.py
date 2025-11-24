@@ -1,4 +1,4 @@
-NUM 2
+NUM = 2
 
 soma = 0
 nome = input(" Informe o nome do aluno: ")
