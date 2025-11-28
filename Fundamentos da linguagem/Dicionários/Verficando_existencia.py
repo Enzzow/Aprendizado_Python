@@ -11,3 +11,5 @@ if alimento in armario:
     print(f" Possuí {armario[alimento]} em estoque\n")
 else:
     print(f" Fora de estoque!\n")
+
+print(" Fim do programa!\n")
