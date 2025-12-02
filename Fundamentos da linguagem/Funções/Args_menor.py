@@ -1,7 +1,5 @@
 #def valor_menor(*numeros):
-    #print(f"\n O menor número é {min(numeros)} \n")
-
-#valor_menor(2,1,5,4,-1)
+    #print(f"\n O menor número é {min(numeros)} \n") # A FORMA MAIS SIMPLES E DIRETA
 
 def valor_menor(*numeros):
     menor = numeros[0]
